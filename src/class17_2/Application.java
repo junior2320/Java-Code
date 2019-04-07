@@ -1,5 +1,6 @@
 package class17_2;
 
+import java.util.Scanner;
 
 public class Application {
 
@@ -7,6 +8,7 @@ public class Application {
 	
 	ScannerMethod scnMthd=new ScannerMethod();
 	//System.out.println(scnMthd.sum(125, 150));
+	
 	
 	Calculator operations = new Calculator();
 	
