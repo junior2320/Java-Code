@@ -5,6 +5,8 @@ public class Application1 {
 
 	public static void main(String[]args) {
 	
+		
+		
 	Animal anim = new Animal();
 	
 	System.out.println("This is anim");
@@ -39,6 +41,7 @@ public class Application1 {
                     System.out.println(anim3.breed);
                     System.out.println(anim3.name);
     
+                    
                     
                     
                     

@@ -1,28 +1,29 @@
 package JustForMe;
-import java.util.Scanner;
-public class junk {
+//import java.util.Scanner;
+//public class junk {
 
-	public static void main(String[] args) {
-//		boolean morning=true;
-//
-//	       while (morning) {
-//	           System.out.println("I LOVE YOU");
-		//int a=1;
+	class Main {
+		  void method1(int a){
+		    System.out.println(100);
+		    
+		  }
+		  
+		  void method1(String b){
+		    System.out.print("SyntaxSolutions");
 		   
-		//while (a<15){
-		    // if (a%2==0)
-
-		   //System.out.println(a);
-		  // a++;
-		 
-      for (int b = 2; b <= 14; b+=2) {
-            System.out.println(b);
-		
-	    //for(int a=2; a>=14; a++);
-	    
-	    //System.out.println(a);
-		 }
-	}
-}
-	
-
+		  }
+		  void method1(double hh){
+		    System.out.println(100.09);
+		  }
+		  void mrthod1(float jj){
+		    System.out.println(200.0998);
+		  }
+		  public static void main(String[] args) {
+		    
+			 Main obj=new Main();
+		    obj.method1(100);
+		    obj.method1("SyntaxSolutions");
+		    obj.method1(100.09);
+		    obj.method1(200.0998);
+		}
+		}
