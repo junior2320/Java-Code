@@ -3,7 +3,7 @@ package class28;
 public interface Bank {
 	
 	static String name="Bank";//by default all variables inside the interface are public static final
-	String hello="hin";//by default it will be public static final
+	String hello="hi";//by default it will be public static final
 	
 	//by default compiler adds public & abstract to every method
 	public void hasChecking();
