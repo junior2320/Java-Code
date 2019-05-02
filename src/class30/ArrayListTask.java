@@ -17,7 +17,7 @@ public static void main(String[] args) {
         names.add("Rosa");
         
         System.out.println(names.isEmpty());
-        System.out.println(names.contains("Jose"));
+        System.out.println(names.contains("King"));
         System.out.println(names.size());
         
         for (String a:names) {
